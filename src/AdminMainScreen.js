@@ -48,21 +48,13 @@ function AdminMainScreen() {
         <Row>
           <Col>
             <Button onClick={handleTrainClick} variant="outline-secondary">
-<<<<<<< HEAD
               <img src="https://source.unsplash.com/500x200/?rail" alt="Button 1" />
-=======
-              <img src="https://source.unsplash.com/500x200/?VIEW" alt="Button 1" />
->>>>>>> 3706a68c5a1868512bfb1c28d5f8b256e164a429
               <p>VIEW TRAINS</p>
             </Button>
           </Col>
           <Col>
             <Button onClick={handleRouteClick} variant="outline-secondary">
-<<<<<<< HEAD
               <img src="https://source.unsplash.com/500x200/?route" alt="Button 2" />
-=======
-              <img src="https://source.unsplash.com/500x200/?train" alt="Button 2" />
->>>>>>> 3706a68c5a1868512bfb1c28d5f8b256e164a429
               <p>VIEW ROUTES</p>
             </Button>
           </Col>
@@ -70,22 +62,14 @@ function AdminMainScreen() {
         <Row>
           <Col>
             <Button onClick={handleFareClick} variant="outline-secondary">
-<<<<<<< HEAD
               <img src="https://source.unsplash.com/500x200/?cash" alt="Button 3" />
-=======
-              <img src="https://source.unsplash.com/500x200/?train" alt="Button 3" />
->>>>>>> 3706a68c5a1868512bfb1c28d5f8b256e164a429
               <p>VIEW FARE</p>
             </Button>
           </Col>
           <Col>
             <Button onClick={handleScheduleClick} variant="outline-secondary">
-<<<<<<< HEAD
               <img src="https://source.unsplash.com/500x200/?clock" alt="Button 4" />
-=======
-              <img src="https://source.unsplash.com/500x200/?train" alt="Button 4" />
->>>>>>> 3706a68c5a1868512bfb1c28d5f8b256e164a429
-              <p>VIEW TRAIN SCHEDULES</p>
+              <p>GENERATE SCHEDULES</p>
             </Button>
           </Col>
         </Row>

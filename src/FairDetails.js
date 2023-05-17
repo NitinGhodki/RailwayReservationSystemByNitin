@@ -1,18 +1,6 @@
-<<<<<<< HEAD
-import React from 'react'
-import AdminMainScreen from './AdminMainScreen'
-
-function FairDetails() {
-  return (
-    <div>
-      <AdminMainScreen></AdminMainScreen>
-=======
 import React, { useState } from 'react'
-import AdminMainScreen from './AdminMainScreen'
 import axios from 'axios';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-export default FairDetails;
-
 function FairDetails() {
 
   const [fromStation, setfromStation] = useState(' ')
@@ -92,17 +80,9 @@ function FairDetails() {
           </div>
         )}
       </Container>
-
-
-      <AdminMainScreen />
-
->>>>>>> 3706a68c5a1868512bfb1c28d5f8b256e164a429
     </div>
   )
 }
 
-<<<<<<< HEAD
-export default FairDetails
-=======
+export default FairDetails;
 
->>>>>>> 3706a68c5a1868512bfb1c28d5f8b256e164a429

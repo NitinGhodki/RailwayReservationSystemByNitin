@@ -31,8 +31,9 @@ function AdminViewFare() {
         {fares.map(fare => (
           <tr key={fare.id}>
             <td>{fare.id}</td>
+            <td>{fare.train_type}</td>
             <td>{fare.coach_type}</td>
-            <td>{fare.fare}</td>
+            <td>{fare.fare} Rs/Km</td>
           </tr>
         ))}
       </tbody>

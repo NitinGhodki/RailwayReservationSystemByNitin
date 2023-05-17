@@ -1,8 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import { Row, Col } from 'react-bootstrap';
 import { Image , NavLink} from 'react-bootstrap';
-import {Container} from 'react-bootstrap';
+import {Container,Row,Col} from 'react-bootstrap';
 const date= new Date();
 
 function Welcome() {

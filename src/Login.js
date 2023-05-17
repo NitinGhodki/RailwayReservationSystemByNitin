@@ -1,84 +1,96 @@
-import React from 'react'
-import { Container } from 'react-bootstrap'
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
-import Carousel from 'react-bootstrap/Carousel';
-import { Row, Col } from 'react-bootstrap';
-
-
+import React, { useState } from 'react';
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import AdminMainScreen from './AdminMainScreen';
+import UserMainScreen from './UserMainScreen';
 function Login() {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [loginAs, setLoginAs] = useState('user');
+  const [loggedInAdmin, setLoggedInAdmin] = useState(false);
+  const [loggedInUser, setLoggedInUser] = useState(false);
+
+  const handleLogin = () => {
+    // Perform login logic here
+    console.log('Username:', username);
+    console.log('Password:', password);
+    console.log('Login As:', loginAs);
+
+    if (loginAs === 'admin') {
+      setLoggedInAdmin(true);
+    }
+    if (loginAs === 'user') {
+      setLoggedInUser(true);
+    }
+ 
+  };
+  if (loggedInAdmin) {
+    return <AdminMainScreen></AdminMainScreen>;
+  }
+  if (loggedInUser) {
+    return <UserMainScreen></UserMainScreen>;
+  }
+
   return (
     <div>
-                        <Container>
-      <Row>
-  <Col xs={12} md={4}>
-    <img src='https://source.unsplash.com/150x110/?train' alt='train'  />
-  </Col>
-  <Col xs={12} md={6}>
-    <h5>Indian Railway</h5>
-    <p>
-      Indian Railways is the largest rail network in Asia and the world's
-      second-largest under NavLink single management system. It operates more than
-      20,000 passenger and freight trains daily, connecting over 7,000 stations
-      across the country.
-    </p>
-  </Col>
-</Row>
-</Container>
-
-    <div>
       <Container>
-      <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://source.unsplash.com/1200x500/?train"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-        <h1 variant="dark" style={{ color: "black" }}>Login</h1>
-        <h4 style={{textAlign:'left' }}>Enter User Name :</h4>
-        <div>
-        <input type='text' style={{ margin:'2%' ,width:'100%', fontSize:'120%' }} placeholder='Enter User Name' ></input>
-        </div>
-        <h4 style={{textAlign:'left' }}>Enter Password:</h4>
-        <div>
-        <input type='password' style={{ margin:'2%' ,width:'100%', fontSize:'120%' }} placeholder='Enter Your Password' ></input>
-        </div>
-        <h4 style={{textAlign:'left' }}>Login As:</h4>
-        <div>
-<select id="user-type" name="user-type" style={{ margin:'2%' ,width:'50%', fontSize:'120%' }}>
-  <option value="user" style={{ margin:'2%' ,width:'50%', fontSize:'120%' }}>User</option>
-  <option value="admin" style={{ margin:'2%' ,width:'50%', fontSize:'120%' }}>Admin</option>
-</select>
-
-        </div>
-
-
-        <div>
-      <Button variant="dark" size="lg">
-        LOGIN
-      </Button>
-      </div>
-
-                    </Carousel.Caption>
-      </Carousel.Item>
-
-      </Carousel>
+        <Row>
+          <Col xs={12} md={4}>
+            <img src='https://source.unsplash.com/150x110/?train' alt='train' />
+          </Col>
+          <Col xs={12} md={6}>
+            <h5>Indian Railway</h5>
+            <p>
+              Indian Railways is the largest rail network in Asia and the world's second-largest under a single management system. It operates more than 20,000 passenger and freight trains daily, connecting over 7,000 stations across the country.
+            </p>
+          </Col>
+        </Row>
       </Container>
 
-<Container>
-<InputGroup className="mb-3">
-        <Form.Control
-          aria-label="Example text with button addon"
-          aria-describedby="basic-addon1"
-        />
-      </InputGroup>
-</Container>
+      <Container>
+        <Form>
+          <Form.Group controlId="username">
+            <Form.Label>Username:</Form.Label>
+            <Form.Control
+              type="text"
+              placeholder="Enter username"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+            />
+          </Form.Group>
+
+          <Form.Group controlId="password">
+            <Form.Label>Password:</Form.Label>
+            <Form.Control
+              type="password"
+              placeholder="Enter password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </Form.Group>
+
+          <Form.Group controlId="loginAs">
+            <Form.Label>Login As:</Form.Label>
+            <Form.Control
+              as="select"
+              value={loginAs}
+              onChange={(e) => setLoginAs(e.target.value)}
+            >
+              <option value="user">User</option>
+              <option value="admin">Admin</option>
+            </Form.Control>
+          </Form.Group>
+          <p></p>
+          <p></p>
+          <p></p>
+
+          <Button variant="dark" onClick={handleLogin}>
+            LOGIN
+          </Button>
+        </Form>
+      </Container>
     </div>
-    </div>
-  )
+  );
 }
 
-export default Login
+
+export default Login;

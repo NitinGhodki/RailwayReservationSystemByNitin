@@ -1,0 +1,30 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    .custom-card {
+        display: flex;
+        align-items: center;
+      }
+    
+    
+      .card-content {
+        flex: 1;
+      }
+    
+      .button-container {
+        text-align: right;
+      }
+      .custom-container {
+        background-image: url("https://source.unsplash.com/1000x450/?dark");
+        background-size: cover;
+        background-position: center center;
+      }
+      
+    

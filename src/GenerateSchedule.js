@@ -99,12 +99,8 @@ function GenerateSchedule() {
             {selectedRoute && <p>You have selected route: {selectedRoute}</p>}
 
             <h3 style={{textAlign:'left' }}>Enter Departure Time:</h3>
-<<<<<<< HEAD
             <Form.Control type="time" value={departureTime} onChange={handleTimeInput} />
-=======
             <Form.Control type="text" value={departureTime} onChange={handleTimeInput} />
->>>>>>> 3706a68c5a1868512bfb1c28d5f8b256e164a429
-
             {departureTime && <p>Departure Time: {departureTime}</p>}
 
             <br /><br />

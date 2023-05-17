@@ -33,7 +33,7 @@ function AdminViewRoute() {
               <td>{route.station_code}</td>
               <td>{route.route_order}</td>
               <td>{route.distance}</td>
-              <td>{route.route_name}</td>
+              <td>{route.rout_name}</td>
               <td>{route.route_number}</td>
             </tr>
           ))}
