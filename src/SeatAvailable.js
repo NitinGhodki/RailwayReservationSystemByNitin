@@ -15,15 +15,10 @@ function SeatAvailable() {
     try {
       const response = await axios.get(`http://localhost:8090/CheckSeatAvailability/${trainNo}/${encodeURIComponent(sourceStation)}/${encodeURIComponent(destinationStation)}/${coach}`);
       console.log(response.data)
-<<<<<<< HEAD
-      setResponse(response.data);
-    } catch (error) {
-=======
       document.log(response.data)
       setResponse(response.data);
     } catch (error) {
       document.error(error);
->>>>>>> 3706a68c5a1868512bfb1c28d5f8b256e164a429
       console.error(error);
     }
   };
@@ -65,11 +60,7 @@ function SeatAvailable() {
             <Form.Label>Coach:</Form.Label>
             <Form.Control type="text" value={coach} onChange={(event) => setCoach(event.target.value)} />
           </Form.Group>
-<<<<<<< HEAD
-          <Button style={{margin:"2%"}}variant="dark" type="submit">Check Availability</Button>
-=======
           <Button style={{margin:"2%"}}variant="primary" type="submit">Check Availability</Button>
->>>>>>> 3706a68c5a1868512bfb1c28d5f8b256e164a429
         </Form>
         {response && (
           <div>
