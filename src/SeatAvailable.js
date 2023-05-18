@@ -27,7 +27,7 @@ function SeatAvailable() {
       <Container>
         <Row>
           <Col xs={12} md={4}>
-            <img src='https://source.unsplash.com/150x110/?train' alt='train' />
+            <img src='TitleRail.png' alt='train' />
           </Col>
           <Col xs={12} md={6}>
             <h5>Indian Railway</h5>

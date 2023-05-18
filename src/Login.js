@@ -32,19 +32,22 @@ function Login() {
 
   return (
     <div>
-      <Container>
-        <Row>
-          <Col xs={12} md={4}>
-            <img src='https://source.unsplash.com/150x110/?train' alt='train' />
-          </Col>
-          <Col xs={12} md={6}>
-            <h5>Indian Railway</h5>
-            <p>
-              Indian Railways is the largest rail network in Asia and the world's second-largest under a single management system. It operates more than 20,000 passenger and freight trains daily, connecting over 7,000 stations across the country.
-            </p>
-          </Col>
-        </Row>
-      </Container>
+            <Container>
+      <Row>
+  <Col xs={12} md={4}>
+    <img src='TitleRail.png' alt='train'  />
+  </Col>
+  <Col xs={12} md={6}>
+    <h5>Indian Railway</h5>
+    <p>
+      Indian Railways is the largest rail network in Asia and the world's
+      second-largest under NavLink single management system. It operates more than
+      20,000 passenger and freight trains daily, connecting over 7,000 stations
+      across the country.
+    </p>
+  </Col>
+</Row>
+</Container>
 
       <Container>
         <Form>

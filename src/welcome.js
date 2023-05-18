@@ -10,7 +10,7 @@ function Welcome() {
             <Container>
       <Row>
   <Col xs={12} md={4}>
-    <img src='https://source.unsplash.com/150x110/?train' alt='train'  />
+    <img src='TitleRail.png' alt='train'  />
   </Col>
   <Col xs={12} md={6}>
     <h5>Indian Railway</h5>
@@ -28,7 +28,7 @@ function Welcome() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://source.unsplash.com/1200x350/?train"
+          src="WelcomeRail.png"
           alt="First slide"
         />
         <Carousel.Caption>

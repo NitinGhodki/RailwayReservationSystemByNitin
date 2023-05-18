@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Container, Form, Button } from 'react-bootstrap';
+import { Container, Form, Button ,Row,Col} from 'react-bootstrap';
 
 function Booking() {
   const [sourceStation, setSourceStation] = useState('');
@@ -44,6 +44,20 @@ function Booking() {
 
   return (
     <div>
+            <Container>
+        <Row>
+          <Col xs={12} md={4}>
+            <img src='TitleRail.png' alt='train' />
+          </Col>
+          <Col xs={12} md={6}>
+            <h5>Indian Railway</h5>
+            <p>
+              Indian Railways is the largest rail network in Asia and the world's second-largest under a single management system. It operates more than 20,000 passenger and freight trains daily, connecting over 7,000 stations across the country.
+            </p>
+          </Col>
+        </Row>
+      </Container>
+
       <Container>
         <h1>Train Ticket Booking</h1>
         <Form onSubmit={handleSubmit}>

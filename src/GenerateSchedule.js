@@ -62,7 +62,7 @@ function GenerateSchedule() {
                               <Container>
       <Row>
   <Col xs={12} md={4}>
-    <img src='https://source.unsplash.com/150x110/?train' alt='train'  />
+    <img src='TitleRail.png' alt='train'  />
   </Col>
   <Col xs={12} md={6}>
     <h5>Indian Railway</h5>
@@ -109,7 +109,7 @@ function GenerateSchedule() {
           </Col>
           
           <Col xs={12} md={6}>
-            <img src="https://source.unsplash.com/670x550/?train" alt="train" />
+            <img src="Generate Schedule.png" alt="train" />
           </Col>
         </Row>
       </Container>

@@ -1,7 +1,7 @@
 import { Container,Row,Col } from "react-bootstrap"
 import React from 'react'
 
-function Trainbetweenstation() {
+function BookingHistory() {
   return (
     <div>
             <Container>
@@ -17,9 +17,9 @@ function Trainbetweenstation() {
           </Col>
         </Row>
       </Container>
-     <h1>Train Search</h1>
+
     </div>
   )
 }
 
-export default Trainbetweenstation
+export default BookingHistory
