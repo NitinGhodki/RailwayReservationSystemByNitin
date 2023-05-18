@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from 'react'
+<<<<<<< HEAD
+=======
+import AdminMainScreen from './AdminMainScreen'
+>>>>>>> 1de90c872aef9115d94552c1f1dde9c72d0fb7a2
 import axios from 'axios';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 export default FairDetails;
@@ -59,7 +63,11 @@ function FairDetails() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
+<<<<<<< HEAD
       const response = await axios.get(`http://localhost:8090/fares/${encodeURIComponent(selectedfromStation)}/${encodeURIComponent(selecttoStation)}/${train_number}/${encodeURIComponent(coach_type)}`);
+=======
+      const response = await axios.get(`http://localhost:8090/fares/${encodeURIComponent(fromStation)}/${encodeURIComponent(toStation)}/${encodeURIComponent(train_number)}/${encodeURIComponent(coach_type)}`);
+>>>>>>> 1de90c872aef9115d94552c1f1dde9c72d0fb7a2
       console.log(response.data)
       document.log(response.data)
       setResponse(response.data);
@@ -155,3 +163,7 @@ function FairDetails() {
     </div>
   );
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1de90c872aef9115d94552c1f1dde9c72d0fb7a2

@@ -13,6 +13,7 @@ import Trainbetweenstation from './trainbetweenstation';
 import TrainSchedule from './TrainSchedule';
 import Register from './Register';
 import Welcome from './welcome';
+import CancelBooking from './CancelBooking';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Nav.Link href="/Fair Details">Fair Enquiry</Nav.Link>
             <Nav.Link href="/train bwetween station">Train Between Station</Nav.Link>
             <Nav.Link href="/Train Schedule">Train Schedule</Nav.Link>
+            <Nav.Link href="/CancelBooking">Cancel Booking</Nav.Link>
 
           </Nav>
           <Nav className="ml-auto">
@@ -45,7 +47,7 @@ function App() {
           <Route path="/Fair Details" element={<FairDetails/>} />
           <Route path="/train bwetween station" element={<Trainbetweenstation/>} />
           <Route path="/Train Schedule" element={<TrainSchedule/>} />
-
+          <Route path="/CancelBooking" element={<CancelBooking/>} />
 
 
 

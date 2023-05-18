@@ -59,6 +59,7 @@ function GenerateSchedule() {
   };
   return (
     <div>
+<<<<<<< HEAD
                               <Container>
       <Row>
   <Col xs={12} md={4}>
@@ -75,12 +76,30 @@ function GenerateSchedule() {
   </Col>
 </Row>
 </Container>
+=======
+      <Container>
+        <Row>
+          <Col xs={12} md={4}>
+            <img src='https://source.unsplash.com/150x110/?train' alt='train' />
+          </Col>
+          <Col xs={12} md={6}>
+            <h5>Indian Railway</h5>
+            <p>
+              Indian Railways is the largest rail network in Asia and the world's
+              second-largest under NavLink single management system. It operates more than
+              20,000 passenger and freight trains daily, connecting over 7,000 stations
+              across the country.
+            </p>
+          </Col>
+        </Row>
+      </Container>
+>>>>>>> 1de90c872aef9115d94552c1f1dde9c72d0fb7a2
 
       <Container>
         <Row>
           <Col xs={12} md={6}>
             <h1>Generate Schedule</h1>
-            <h3 style={{textAlign:'left' }}>Select Train Number:</h3>
+            <h3 style={{ textAlign: 'left' }}>Select Train Number:</h3>
             <Form.Control as="select" value={selectedTrain} onChange={handleTrainSelection}>
               <option value="">Select a train number</option>
               {trainNumbers.map(train => (
@@ -89,7 +108,7 @@ function GenerateSchedule() {
             </Form.Control>
             {selectedTrain && <p>You have selected train number: {selectedTrain}</p>}
 
-            <h3 style={{textAlign:'left' }}>Select Route:</h3>
+            <h3 style={{ textAlign: 'left' }}>Select Route:</h3>
             <Form.Control as="select" value={selectedRoute} onChange={handleRouteSelection}>
               <option value="">Select a route</option>
               {routes.map(route => (
@@ -98,16 +117,23 @@ function GenerateSchedule() {
             </Form.Control>
             {selectedRoute && <p>You have selected route: {selectedRoute}</p>}
 
+<<<<<<< HEAD
             <h3 style={{textAlign:'left' }}>Enter Departure Time:</h3>
             <Form.Control type="time" value={departureTime} onChange={handleTimeInput} />
             <Form.Control type="text" value={departureTime} onChange={handleTimeInput} />
+=======
+            <h3 style={{ textAlign: 'left' }}>Enter Departure Time:</h3>
+
+            <Form.Control type="text" value={departureTime} onChange={handleTimeInput} />
+
+>>>>>>> 1de90c872aef9115d94552c1f1dde9c72d0fb7a2
             {departureTime && <p>Departure Time: {departureTime}</p>}
 
             <br /><br />
             <Button variant="primary" onClick={handleScheduleGeneration}>Generate Schedule</Button>
-            
+
           </Col>
-          
+
           <Col xs={12} md={6}>
             <img src="Generate Schedule.png" alt="train" />
           </Col>
