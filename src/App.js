@@ -14,6 +14,9 @@ import TrainSchedule from './TrainSchedule';
 import Register from './Register';
 import Welcome from './welcome';
 import CancelBooking from './CancelBooking';
+// import ForgotPassword from './ForgotPassword';
+import RailwayReservationSystem from './UserMainScreen';
+import AdminMainScreen from './AdminMainScreen';
 
 function App() {
   return (
@@ -48,6 +51,9 @@ function App() {
           <Route path="/train bwetween station" element={<Trainbetweenstation/>} />
           <Route path="/Train Schedule" element={<TrainSchedule/>} />
           <Route path="/CancelBooking" element={<CancelBooking/>} />
+          <Route path="/register" component={Register} />
+        <Route path="/user-main-screen" element={<RailwayReservationSystem />} />
+        <Route path="/admin-main-screen" element={<AdminMainScreen />} />
 
 
 
