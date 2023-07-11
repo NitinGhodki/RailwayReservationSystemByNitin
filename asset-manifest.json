@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/welcome/static/css/main.4382cfc0.css",
-    "main.js": "/welcome/static/js/main.f69e453c.js",
-    "static/js/703.77cb208b.chunk.js": "/welcome/static/js/703.77cb208b.chunk.js",
-    "static/js/513.a35fb1cd.chunk.js": "/welcome/static/js/513.a35fb1cd.chunk.js",
-    "static/js/787.2535c8cc.chunk.js": "/welcome/static/js/787.2535c8cc.chunk.js",
-    "static/media/backgrounduser.jpg": "/welcome/static/media/backgrounduser.f100e5ec11b4eb6bf10d.jpg",
-    "static/media/background8.jpg": "/welcome/static/media/background8.3d7a043eeb85f60bad2c.jpg",
-    "static/media/background.jpg": "/welcome/static/media/background.a46c99e2dd7758c21985.jpg",
-    "static/media/background4.jpg": "/welcome/static/media/background4.91ace861fccafd9af473.jpg",
-    "index.html": "/welcome/index.html",
-    "main.4382cfc0.css.map": "/welcome/static/css/main.4382cfc0.css.map",
-    "main.f69e453c.js.map": "/welcome/static/js/main.f69e453c.js.map",
-    "703.77cb208b.chunk.js.map": "/welcome/static/js/703.77cb208b.chunk.js.map",
-    "513.a35fb1cd.chunk.js.map": "/welcome/static/js/513.a35fb1cd.chunk.js.map",
-    "787.2535c8cc.chunk.js.map": "/welcome/static/js/787.2535c8cc.chunk.js.map"
+    "main.css": "/RailwayReservationSystemByNitin/welcome/static/css/main.4cfcdb1c.css",
+    "main.js": "/RailwayReservationSystemByNitin/welcome/static/js/main.89bf3f28.js",
+    "static/js/703.77cb208b.chunk.js": "/RailwayReservationSystemByNitin/welcome/static/js/703.77cb208b.chunk.js",
+    "static/js/513.a35fb1cd.chunk.js": "/RailwayReservationSystemByNitin/welcome/static/js/513.a35fb1cd.chunk.js",
+    "static/js/787.2535c8cc.chunk.js": "/RailwayReservationSystemByNitin/welcome/static/js/787.2535c8cc.chunk.js",
+    "static/media/backgrounduser.jpg": "/RailwayReservationSystemByNitin/welcome/static/media/backgrounduser.f100e5ec11b4eb6bf10d.jpg",
+    "static/media/background8.jpg": "/RailwayReservationSystemByNitin/welcome/static/media/background8.3d7a043eeb85f60bad2c.jpg",
+    "static/media/background.jpg": "/RailwayReservationSystemByNitin/welcome/static/media/background.a46c99e2dd7758c21985.jpg",
+    "static/media/background4.jpg": "/RailwayReservationSystemByNitin/welcome/static/media/background4.91ace861fccafd9af473.jpg",
+    "index.html": "/RailwayReservationSystemByNitin/welcome/index.html",
+    "main.4cfcdb1c.css.map": "/RailwayReservationSystemByNitin/welcome/static/css/main.4cfcdb1c.css.map",
+    "main.89bf3f28.js.map": "/RailwayReservationSystemByNitin/welcome/static/js/main.89bf3f28.js.map",
+    "703.77cb208b.chunk.js.map": "/RailwayReservationSystemByNitin/welcome/static/js/703.77cb208b.chunk.js.map",
+    "513.a35fb1cd.chunk.js.map": "/RailwayReservationSystemByNitin/welcome/static/js/513.a35fb1cd.chunk.js.map",
+    "787.2535c8cc.chunk.js.map": "/RailwayReservationSystemByNitin/welcome/static/js/787.2535c8cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4382cfc0.css",
-    "static/js/main.f69e453c.js"
+    "static/css/main.4cfcdb1c.css",
+    "static/js/main.89bf3f28.js"
   ]
 }
