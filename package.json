@@ -13,7 +13,11 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-router-dom": "^6.11.2",
+=======
+    "react-router-dom": "^6.11.1",
+>>>>>>> e259c47e4e99e727b01c1ef41f677001a7ff231d
     "react-scripts": "5.0.1",
     "react-toastify": "^9.1.3",
     "web-vitals": "^2.1.4"

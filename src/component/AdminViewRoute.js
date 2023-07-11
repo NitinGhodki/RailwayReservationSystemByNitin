@@ -30,8 +30,15 @@ function AdminViewRoute() {
               <td>{route.route_order}</td>
               <td>{route.station_name}</td>
               <td>{route.station_code}</td>
+<<<<<<< HEAD:src/component/AdminViewRoute.js
               <td>{route.route_name}</td>
               <td>{route.distance}</td>
+=======
+              <td>{route.route_order}</td>
+              <td>{route.distance}</td>
+              <td>{route.rout_name}</td>
+              <td>{route.route_number}</td>
+>>>>>>> e259c47e4e99e727b01c1ef41f677001a7ff231d:src/AdminViewRoute.js
             </tr>
           ))}
         </tbody>

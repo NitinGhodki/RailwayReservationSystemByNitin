@@ -1,0 +1,122 @@
+/* .login-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    width: 200px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .Toastify__toast-container {
+    position: relative;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @media (max-width: 768px) {
+    .login-container {
+      width: 100%;
+    }
+  
+    label {
+      width: 100%;
+    }
+  } */
+
+
+  .login-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    width: 200px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .Toastify__toast-container {
+    position: relative;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Media queries for mobile screens */
+  @media only screen and (max-width: 600px) {
+    .login-container {
+      width: 100%;
+    }
+  
+    label {
+      width: 100%;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
+  /* Media queries for tablet screens */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .login-container {
+      width: 500px;
+    }
+  }
