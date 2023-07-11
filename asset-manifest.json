@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RailwayReservationSystemByNitin/static/css/main.afe4da56.css",
+    "main.js": "/RailwayReservationSystemByNitin/static/js/main.8d0afb2d.js",
+    "static/js/703.77cb208b.chunk.js": "/RailwayReservationSystemByNitin/static/js/703.77cb208b.chunk.js",
+    "static/js/513.a35fb1cd.chunk.js": "/RailwayReservationSystemByNitin/static/js/513.a35fb1cd.chunk.js",
+    "static/js/787.2535c8cc.chunk.js": "/RailwayReservationSystemByNitin/static/js/787.2535c8cc.chunk.js",
+    "static/media/backgrounduser.jpg": "/RailwayReservationSystemByNitin/static/media/backgrounduser.f100e5ec11b4eb6bf10d.jpg",
+    "static/media/background8.jpg": "/RailwayReservationSystemByNitin/static/media/background8.3d7a043eeb85f60bad2c.jpg",
+    "static/media/background.jpg": "/RailwayReservationSystemByNitin/static/media/background.a46c99e2dd7758c21985.jpg",
+    "static/media/background4.jpg": "/RailwayReservationSystemByNitin/static/media/background4.91ace861fccafd9af473.jpg",
+    "index.html": "/RailwayReservationSystemByNitin/index.html",
+    "main.afe4da56.css.map": "/RailwayReservationSystemByNitin/static/css/main.afe4da56.css.map",
+    "main.8d0afb2d.js.map": "/RailwayReservationSystemByNitin/static/js/main.8d0afb2d.js.map",
+    "703.77cb208b.chunk.js.map": "/RailwayReservationSystemByNitin/static/js/703.77cb208b.chunk.js.map",
+    "513.a35fb1cd.chunk.js.map": "/RailwayReservationSystemByNitin/static/js/513.a35fb1cd.chunk.js.map",
+    "787.2535c8cc.chunk.js.map": "/RailwayReservationSystemByNitin/static/js/787.2535c8cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afe4da56.css",
+    "static/js/main.8d0afb2d.js"
+  ]
+}
