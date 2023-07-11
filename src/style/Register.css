@@ -1,0 +1,63 @@
+.error-message {
+    color: red;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: -7px;
+}
+
+#registeredDiv {
+    background-color: white;
+    background-image: url("/public/backgrounduser.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 1px;
+}
+
+#registerRow1 {
+    margin-top: 80px;
+    width: 100%;
+}
+
+#loginDiv {
+    position: fixed;
+    width: 45%;
+}
+
+#registerformContainer {
+    margin-top: 50px;
+    margin-left: -30px;
+}
+
+#registeredAccount {
+    color: #57b846;
+}
+
+.formInnput {
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: #efefef;
+}
+
+.registerformLadel {
+    float: left;
+}
+
+.registerRowInput {
+    margin: 20px 0px;
+}
+
+#registeronSubmit {
+    padding: 15px;
+    width: 40%;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: crimson;
+    font-weight: 800;
+}
+
+#registeronSubmit:hover {
+    background-color: white;
+    color: black;
+}

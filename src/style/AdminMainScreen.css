@@ -1,0 +1,88 @@
+
+#adminmain {
+    padding: 1px;
+    background-image: url("/public/background.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 105%;
+}
+
+#containerRow {
+    margin: 60px;
+}
+
+.adminrow {
+    margin: 8px;
+    margin-bottom: 80px;
+}
+
+#maincontainer{
+    margin-top: 130px;
+}
+
+.adminrowcol {
+    background-color: #9f8c7a;
+    height: 320px;
+}
+.adminrowcol:hover{
+    color: white;
+}
+
+#logoutContainer {
+    margin: 0px;
+    padding: 0px;
+    max-width: 99.5%;
+}
+
+#logoutrow {
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: -70px;
+    width: 101%;
+    
+}
+
+#adminmodelcontainer {
+    max-width: 80%;
+    margin-top: 6%;
+}
+
+#Generatemodelcontainer{
+    max-width: 60%;
+    margin-top: 6%;
+}
+
+#adminmodelbody {
+    padding: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+#adminmodelH1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.adminimg{
+    margin: 10px;
+}
+.adminrowcolP{
+    margin: 20px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.adminrowcolP:hover{
+    color: white;
+}
+#adminrow{
+    background-color: #ffffff;
+    position: fixed;
+    /* margin-top: 0px; */
+    width: 100.8%;
+    z-index: 9999;
+    box-shadow: 0px 0px 5px 2px black;
+}

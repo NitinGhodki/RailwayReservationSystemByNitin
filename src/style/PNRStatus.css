@@ -1,0 +1,119 @@
+#pnrCotainerHeader{
+    margin-top: 6%;
+}
+#pnrstatusContainerH1{
+    width: 100%;
+    margin: auto;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    padding: 30px;
+    color: #ffffff;
+    margin-top: 4%;
+    margin-bottom: 40px;
+    background-color: brown;
+}
+
+#pnrstatusContainer{
+    margin-top: 4%;
+    margin-bottom: 13%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+#pnrstatusDiv{
+    background-image: url("/public/background4.jpg");
+    padding-top: 1px;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#pnrCotainer{
+    margin-top: 30px;
+}
+
+#pnrCotainerimg{
+    filter: blur(8px);
+}
+
+#pnrCotainerCaption{
+    margin: 0px 0px 20px 0px;
+}
+
+#pnrContainer2H1{
+    color: black;
+    margin: auto;
+    text-shadow: rgb(251 251 251) 1.5px 2px;
+    background-color: rgb(255 255 255 / 29%);
+    margin-bottom: 45px;
+    border-radius: 15px;
+    width: 55%;
+}
+
+#pnrContainerH1result{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15%;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#pnrstatusContainer3{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    /* padding: 30px; */
+    border-radius: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#pnriddiv1{
+    display: flex;
+    background-color: #4fd637;
+    width: 100%;
+    padding: 20px;
+    border-radius: 26px 25px 0px 0px;
+}
+
+#idp2{
+    font-weight: 500;
+    font-family: sans-serif;
+    margin: -5px 10px 0px 10px;
+    color: white;
+    text-shadow: 3px 4px 3px black;
+}
+
+#idspan{
+    font-family: cursive;
+    font-weight: 800;
+}
+#pnrcontentdiv{
+    padding: 20px 0px 20px 0px;
+    margin-top: 20px;
+}
+
+#pnriddiv2{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.pnrcolDiv{
+    display: inline-flex;
+    margin: 8px;
+}
+
+.pnrcolDivh6Destination{
+    margin-left: -20%;
+    margin-right: 10px;
+}
+
+.pnrcolDivh6{
+    margin-left: 30px;
+    margin-right: 10px;
+}

@@ -1,0 +1,213 @@
+#usermsinpageDiv {
+  background-color: white;
+  background-image: url("/public/background8.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 1px;
+}
+
+.bigimg {
+  background-image: url("/public/background8.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 0%;
+  height: 750px;
+  position: fixed;
+  width: 100%;
+  filter: brightness(0.4);
+}
+
+#userrow1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.userrow2 {
+  width: 95%;
+  margin: auto;
+}
+
+.userrow3 {
+  width: 60%;
+  margin: auto;
+}
+
+.userMaincardBody {
+  background-color: #ADD8E6;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.userMaincardBody:hover {
+  background-color: #a3e8ff;
+}
+
+.userMainHeading {
+  font-size: larger;
+  font-weight: bold;
+  width: 50%;
+  margin: auto;
+  padding: 5px;
+  background-color: white;
+  border-radius: 10px;
+  border: 0.1px solid rgba(0, 0, 0, 0.366);
+  margin-bottom: 20px;
+}
+
+#mainslideH1 {
+  color: #fff;
+  width: 60%;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.userMainCardButton {
+
+  margin-top: 25px;
+  border: 1px solid white;
+  width: 100%;
+  background-color: #2C5F2D;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+#home {
+  float: left;
+}
+
+#userCotainerHeader {
+  margin-top: 30px;
+  position: relative;
+}
+
+#mainhomerow2 {
+  background-color: #ffffff;
+  position: fixed;
+  /* margin-top: 0px; */
+  width: 100.8%;
+  z-index: 9999;
+  box-shadow: 0px 0px 5px 2px black;
+}
+
+.userMainCardButton:hover {
+  background-color: #6aa516;
+}
+
+.userMainCardTitle {
+  width: 80%;
+  margin: auto;
+}
+
+
+.containerStyle {
+  border: '10px solid black';
+  padding: '20px';
+  margin: '20px';
+}
+
+;
+
+.backButton {
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#homeContainer {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+
+#homeContainer2 {
+  margin: 0px;
+  padding: 0px;
+  max-width: 99.5%;
+
+}
+
+#homeimg {
+  position: relative;
+  width: 122px;
+  display: flex;
+  margin-left: 90px;
+  margin-bottom: 0px;
+}
+
+#homediv {
+  width: 23%;
+  position: absolute;
+  margin-top: -28px;
+  color: #000000;
+  font-weight: 800;
+}
+
+#homerow {
+  background-color: #ffffff;
+  position: fixed;
+  margin-top: 0px;
+  width: 100.81%;
+  z-index: 9999;
+  box-shadow: 0px 0px 5px 2px black;
+}
+
+#homerow2 {
+  background-color: #ffffff;
+  position: fixed;
+  margin-top: 0px;
+  width: 100.8%;
+}
+
+.homebutton {
+  float: right;
+  margin: 18px;
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 7px 35px 7px 35px;
+  border-radius: 10px;
+  margin-right: 80px;
+}
+
+.homebuttonlogout {
+  float: right;
+  margin: 18px;
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 7px 35px 7px 35px;
+  border-radius: 10px;
+}
+
+#usercon {
+  margin-top: 40px;
+  padding: 0px;
+}
+
+#proLogo {
+  width: 50px;
+}
+
+#homeImeButton {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  margin: 15px;
+  margin-left: 160px;
+}
+
+
+#homewelcomeP {
+  margin: 28px;
+}
+
+#homewelcomespan {
+  font-weight: 700;
+}

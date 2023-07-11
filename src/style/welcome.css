@@ -1,0 +1,134 @@
+#welcomeheader {
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+#welcomeslideH1,
+#welcomeslideP {
+    color: #fff;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.welcomeTrain {
+    background-color: #b6c199;
+    width: 49%;
+    margin-right: 7px;
+    padding: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 1.2), 0 7px 31px 0 rgba(0, 0, 0, 1.19);
+    margin-bottom: -50px;
+}
+
+#welcomeContainer {
+    max-width: 100%;
+    margin-top: 100px;
+    margin-bottom: 5%;
+    padding: 10px;
+    position: relative;
+}
+
+#welcomeContainer2 {
+    max-width: 100%;
+    margin-top: 70px;
+    margin-bottom: 10%;
+    padding: 10px;
+    position: relative;
+}
+
+#welcomeDivimg {
+    position: absolute;
+}
+
+#welcomeContainerimg {
+    width: 100%;
+    height: 680px;
+    margin-top: 30px;
+    filter: brightness(0.3);
+}
+
+.welcomefooterContainer {
+    background-color: #000000ba;
+    max-width: 100%;
+    padding: 50px;
+    margin-bottom: -50px;
+    margin-top: 50px;
+    color: white;
+}
+
+#welcomeDiv {
+    background-color: #e3e3e3;
+    padding-top: 1px;
+}
+
+#tablecontainer {
+    background-color: white;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#tablecontainer2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#trainbetweenstationdin {
+    width: 58%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.trainbetweenstationfromgroup{
+    margin-right: 15px;
+}
+.trainbetweenstationFormInput {
+    padding: 15px 80px 15px 60px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+#trainbetweenstationsubmit{
+    padding: 0px 60px 0px 60px;
+}
+
+#trainbetweenstationdivButton{
+    /* background-color: #d9d9d9; */
+    width: 50%;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.trainwelcombutton{
+    background-color: #d9d9d9;
+    border: none;
+    color: black;
+    padding: 16px 28px 12px 27px;
+    font-weight: 700;
+    outline: inherit;
+    border-radius: 10px ;
+    margin: 20px;
+}
+.trainwelcombutton:hover{
+    background-color: #d9d9d9;
+    color: #000;
+    font-weight: 700;
+}
+
+.pnrStatusinput{
+    width: 500px;
+    padding: 15px 80px 15px 60px;
+    border: 1px solid black;
+    border-radius: 45px;
+}
+#pnrStatusSubmit{
+    width: 340px;
+}
+
+#imgtrain {
+    margin: 18px;
+}

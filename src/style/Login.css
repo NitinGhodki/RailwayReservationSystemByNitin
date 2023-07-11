@@ -1,0 +1,115 @@
+#loginDiv1 {
+    background-image: url("/public/backgrounduser.jpg");
+    padding-top: 1px;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+    background-size: 100%;
+}
+
+#loginRow{
+    width: 100%;
+}
+#loginDiv2 {
+    position: fixed;
+    width: 50%;
+}
+
+#loginRow1 {
+    margin-top: 80px;
+}
+
+#loginimage {
+    width: 600px;
+    margin: auto;
+    padding: 80px;
+    margin-top: 10%;
+}
+
+#loginimage2 {
+    width: 600px;
+    margin: auto;
+    padding: 80px;
+}
+
+#loginformContainer {
+    width: 100%;
+    margin-left: 60px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.loginformInnput {
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px 90px;
+    background-color: #d1d1d1;
+}
+
+#loginonSubmit {
+    margin: 3%;
+    margin-top: 35px;
+    padding: 15px 150px;
+    border: 1px solid white;
+    box-shadow: 2px 2px #ffffff85;
+    border-radius: 20px;
+    background-color: #57b846;
+}
+
+#loginRegister {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 25%;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 38%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#loginRegister2 {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 25%;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 38%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#logindivimg {
+    width: 100%;
+    margin-left: 20%;
+}
+
+#loginfrom{
+    width: 100%;
+    margin-bottom: 38px;
+}
+.loginformLadel {
+    margin: 30px 0px 10px 10px;
+    font-weight: bold;
+    float: left;
+    color: black;
+}
+
+#Forgetpassword {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#loginformContainer {
+    border-radius: 15px;
+    width: 80%;
+    padding: 30px;
+    position: relative;
+    margin-top: 65px;
+}

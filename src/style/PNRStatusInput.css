@@ -1,0 +1,42 @@
+#pnrinputCotainer{
+    border-radius: 15px;
+    padding: 4%;
+    margin-top: 6%;
+    position: relative;
+    margin-bottom: 8%;
+}
+
+#pnrContainerinput2H1{
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-shadow: rgb(0, 0, 0) 1.5px 2px;
+    margin-bottom: 45px;
+    width: 55%;
+}
+#pnrinputformdiv{
+    width: 100%;
+}
+
+#pnrinputcancelForm{
+    width: 67%;
+    margin: auto;
+}
+#cancelLabelPNRinput{
+    color: white;
+    float: left;
+    font-weight: 600;
+    font-size: larger;
+    margin: 0px 0px 20px 25px;
+}
+
+#pnrinputforminput{
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+}
+
+#inputcancelsearch{
+    margin: 50px 0px 0px 0px;
+    padding: 16px 80px 16px 80px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 2px #ffffff96;
+}

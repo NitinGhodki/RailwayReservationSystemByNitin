@@ -1,0 +1,143 @@
+#cancelCotainerHeader {
+    margin-top: 30px;
+}
+
+#cancelbookingCotainer {
+    border-radius: 15px;
+    width: 60%;
+    padding: 30px;
+    margin-top: 10%;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+
+#cancelbookingCotainerH1 {
+    width: 70%;
+    margin: auto;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    padding: 5px;
+    color: #ffffff;
+}
+
+#cancelbookingForm {
+    width: 100%;
+    margin-top: 40px;
+}
+
+#cancelbookingcontrolId{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#cancelbookingLabelPNR {
+    margin: 5px 0px 10px 18px;
+    font-weight: bold;
+    font-size: larger;
+    float: left;
+    color: white;
+}
+
+#cancelbookinginput{
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: #efefef;
+}
+
+#cancelbookingsearch {
+    margin: 2%;
+    margin-top: 60px;
+    padding: 15px 100px;
+    border: 1px solid white;
+    box-shadow: 2px 2px #ffffff85;
+    background-color: darkcyan;
+    color: black;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+#cancelTableH1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#cancelTableP {
+    display: inline-flex;
+    font-weight: 100;
+}
+
+#cancelTablespan {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+#CancelBooking {
+    margin: 0px 0px 30px 0px;
+    padding: 10px 40px 12px 40px;
+}
+
+#cancelWarning {
+    color: red;
+    text-shadow: 2px 1px #000000a8;
+}
+
+#cancelWarningH2 {
+    text-align: center;
+    color: #100909;
+}
+
+.cancelYesNo {
+    padding: 7px 25px 7px 25px;
+}
+
+.cancelResultDiv {
+    margin: auto;
+    text-align: center;
+}
+
+.cancelResultH2 {
+    margin-bottom: 10px;
+    color: #adadad;
+    text-shadow: 2px 2px black;
+}
+
+#cancelspan1 {
+    font-weight: 700;
+    font-size: larger;
+    color: red;
+}
+
+#cancelspan2 {
+    font-weight: 700;
+    font-size: larger;
+}
+
+#cancelspan3 {
+    font-weight: 700;
+    font-size: larger;
+    color: #70b703;
+    text-shadow: 1px 1px black;
+}
+
+#cancelclose {
+    padding: 5px 20px 5px 20px;
+}
+
+.cancelfooterContainer {
+    background-color: #00000096; 
+    max-width: 100%; 
+    padding: 50px; 
+    margin-bottom: -50px; 
+    margin-top: 50px;
+}
+
+#cancelbooking{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#WARNING{
+    margin-top: 6%;
+}

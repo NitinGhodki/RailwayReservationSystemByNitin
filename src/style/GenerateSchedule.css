@@ -1,0 +1,72 @@
+#scheduleContainer1 {
+    margin-bottom: 20px;
+}
+
+#schedulefromcol {
+    max-width: 80%;
+    margin: auto;
+}
+
+#scheduleColH1 {
+    background-color: #ffffff87;
+    border: 2px solid #ffffffa3;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    text-shadow: 3px 2px 2px white;
+    margin-bottom: 20px;
+}
+
+#form {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.scheduleFromDiv {
+    width: 90%;
+    margin: 15px;
+}
+
+.schedulelabelH3 {
+    margin: 5px 0px 15px 10px;
+    font-weight: bold;
+    float: left;
+}
+
+#scheduleDepartureDiv {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.scheduleinput{
+    border-radius: 15px;
+    padding: 15px 40px;
+    background-color: #e2e2e2;
+}
+
+#scheduleDeparture {
+    margin-top: 15px;
+}
+
+.scheduleresult {
+    /* font-size: larger; */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+#ScheduleOnSubmit {
+    margin: 2%;
+    margin-top: 25px;
+    padding: 15px 50px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px #00000085;
+    background-color: #008000d9;
+    border-radius: 20px;
+}
+
+#Scheduleimg2 {
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 1.2), 0 7px 31px 0 rgba(0, 0, 0, 1.19);
+}

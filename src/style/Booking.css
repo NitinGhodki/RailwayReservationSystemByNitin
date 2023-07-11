@@ -1,0 +1,129 @@
+#bookingDivimg{
+    position: fixed;
+    height: 100px;
+}
+#bookingContainerimg12{
+    width: 1518px;
+    height: 680px;
+    filter: brightness(0.4);
+    margin-top: 65px;
+}
+#bookingFormContainer {
+    border-radius: 15px;
+    width: 60%;
+    padding: 4%;
+    margin-top: 32px;
+    position: relative;
+}
+
+#bookingContainerH1 {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-shadow: rgb(0, 0, 0) 1.5px 2px;
+    width: 55%;
+}
+
+#bookingForm {
+    width: 100%;
+    margin-top: 28px;
+}
+
+.bookingFormControl {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.bookingforrmLabel {
+    margin: 5px 0px 10px 0px;
+    font-weight: bold;
+    float: left;
+    color: white;
+}
+.bookingformInput{
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: #efefef;
+}
+
+#bookingsubmit {
+    margin: 2%;
+    margin-top: 25px;
+    padding: 15px 100px;
+    border: 1px solid white;
+    box-shadow: 2px 2px #ffffff85;
+    background-color: rgb(0, 139, 42);
+    color: black;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+#bookingPassengerDetails{
+    width: 70%;
+    padding: 30px;
+    margin-top: 60px;
+    position: relative;
+    
+}
+
+#bookingPassengerContainerH1{
+    background-color: #ffffff87;
+    border: 2px solid #ffffffa3;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    text-shadow: 3px 2px 2px white;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#bookingPassengersubmit{
+    margin: 2%;
+    margin-top: 45px;
+    padding: 15px 100px;
+    border: 1px solid white;
+    box-shadow: 2px 2px #ffffff85;
+    background-color: rgb(0, 139, 42);
+    color: black;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+#bookingPassengerPayment{
+    width: 80%;
+    padding: 15px;
+    background-color: #006d00e6;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#bookingPassengerPayment:hover{
+    background-color: black;
+}
+
+#PassengerContainerH1 {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-shadow: rgb(0, 0, 0) 1.5px 2px;
+    width: 55%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bookingfooterContainer12{
+    background-color: #7a93e5;
+    max-width: 100%;
+    padding: 50px;
+    margin-bottom: -50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+#bookingmodel{
+    margin-top: 6%;
+}
+
+#bookinngRupee{
+    color: green;
+    text-shadow: 1px 1px #626262;
+}

@@ -1,0 +1,137 @@
+#stationDiv {
+    background-image: url("/public/background4.jpg");
+    padding-top: 1px;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#stationContainer {
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+#stationContainerTable {
+    margin: 0px;
+}
+
+#traindiv {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 62%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+#traincol1 {
+    text-align: left;
+}
+
+#traincol2 {
+    text-align: end;
+}
+
+#traindays {
+    font-weight: 600;
+    font-family: ui-monospace;
+}
+
+#trainname {
+    font-weight: 700;
+    font-family: serif;
+}
+
+#line {
+    border-left: 4px solid #000000a6;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#trainnumber {
+    font-family: inherit;
+}
+
+#buttontrainNumber {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    height: 30px;
+    width: 160px;
+    display: contents;
+}
+
+#stationDiv2 {
+    margin-top: 4%;
+    background-color: brown;
+    padding: 30px;
+    margin-bottom: 4%;
+}
+
+#modeldiv {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 6%;
+}
+
+#smodelContainerH1 {
+    width: 100%;
+    margin: auto;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    padding: 2px;
+    color: #ffffff;
+}
+
+#typep {
+    text-align: end;
+    margin: 5px 30px;
+}
+
+#typespan {
+    font-weight: 700;
+}
+
+#coachp {
+    text-align: left;
+    font-weight: bolder;
+}
+
+#coachdiv{
+    display: flex;
+}
+
+#coachdiv2A{
+    padding: 20px 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px 25px;
+}
+
+#coachdiv3A{
+    padding: 20px 40px;
+    border: 2px solid #ea6868;
+    border-radius: 10px;
+    margin: 5px 25px;
+}
+
+#divhr{
+    max-width: 100%;
+}
+
+#divtime{
+    width: 30%;
+    margin: auto;
+    margin-top: -30px;
+    background-color: white;
+    position: relative;
+}

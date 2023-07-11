@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background-color: #282c34; */
 }
 
 .App-logo {
@@ -32,7 +33,57 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+#Appnav{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: 0px 0px 5px 2px black;
+}
+.appnavlink {
+  padding: 5px 35px !important;
+  margin: 5px;
+  color: black !important;
+}
+.inernav{
+  width: 60%;
+  margin: auto;
+}
+
+.appnavlink:hover {
+  background-color: #703f37;
+  color: #ffffff !important;
+  border-radius: 10px;
+}
+
+.appnavbutton {
+  background-color: white !important;
+  color: black !important;
+  padding: 5px 25px 5px 25px !important;
+  border: 1px solid black !important;
+  margin: 0px 60px !important;
+  margin-right: -30px !important;
+}
+
+.appnavbutton:hover {
+  background-color: #9f8c7a !important;
+  color: white !important;
+}
+
+.appnavbutton:visited {
+  background-color: #9f8c7a !important;
+  color: white !important;
+}
+
+#apphomeimg {
+  position: absolute;
+  width: 106px;
+  display: flex;
+  margin-top: -34px;
 }
