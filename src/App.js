@@ -23,7 +23,7 @@ function App() {
 
         <Navbar id='Appnav'>
           <Container>
-            <Navbar.Brand href="/welcome"  id =''><img src='/punlic/train logo3.png' alt='logo'id='apphomeimg'/></Navbar.Brand>
+            <Navbar.Brand href="/"  id =''><img src='/punlic/train logo3.png' alt='logo'id='apphomeimg'/></Navbar.Brand>
             <Nav className="me-auto inernav">
               {/* <Nav.Link href="/PNRStatus" className="appnavlink" id =''>PNR Status</Nav.Link> */}
               <Nav.Link href="/SeatAvailable" className="appnavlink" id =''>Seat Availability</Nav.Link>
