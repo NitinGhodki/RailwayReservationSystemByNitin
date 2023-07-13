@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/RailwayReservationSystemByNitin/static/css/main.ff1b3940.css",
-    "main.js": "/RailwayReservationSystemByNitin/static/js/main.9c25ced6.js",
+    "main.css": "/RailwayReservationSystemByNitin/static/css/main.8b1227c0.css",
+    "main.js": "/RailwayReservationSystemByNitin/static/js/main.7da9bc6b.js",
     "static/js/703.77cb208b.chunk.js": "/RailwayReservationSystemByNitin/static/js/703.77cb208b.chunk.js",
     "static/js/513.a35fb1cd.chunk.js": "/RailwayReservationSystemByNitin/static/js/513.a35fb1cd.chunk.js",
     "static/js/787.2535c8cc.chunk.js": "/RailwayReservationSystemByNitin/static/js/787.2535c8cc.chunk.js",
     "static/media/backgrounduser.jpg": "/RailwayReservationSystemByNitin/static/media/backgrounduser.f100e5ec11b4eb6bf10d.jpg",
     "static/media/background8.jpg": "/RailwayReservationSystemByNitin/static/media/background8.3d7a043eeb85f60bad2c.jpg",
+    "static/media/train1.jpeg": "/RailwayReservationSystemByNitin/static/media/train1.14e33dc855b358a5c6ab.jpeg",
+    "static/media/train logo2.png": "/RailwayReservationSystemByNitin/static/media/train logo2.5ae3fd3d90e087dfcda2.png",
     "static/media/train logo3.png": "/RailwayReservationSystemByNitin/static/media/train logo3.5ae3fd3d90e087dfcda2.png",
     "static/media/background.jpg": "/RailwayReservationSystemByNitin/static/media/background.a46c99e2dd7758c21985.jpg",
+    "static/media/ViewSchedule.png": "/RailwayReservationSystemByNitin/static/media/ViewSchedule.2167c6fd47fa72ffd7a7.png",
     "static/media/background4.jpg": "/RailwayReservationSystemByNitin/static/media/background4.91ace861fccafd9af473.jpg",
     "static/media/img-01.webp": "/RailwayReservationSystemByNitin/static/media/img-01.4ed7df3a303c99050d13.webp",
     "index.html": "/RailwayReservationSystemByNitin/index.html",
-    "main.ff1b3940.css.map": "/RailwayReservationSystemByNitin/static/css/main.ff1b3940.css.map",
-    "main.9c25ced6.js.map": "/RailwayReservationSystemByNitin/static/js/main.9c25ced6.js.map",
+    "main.8b1227c0.css.map": "/RailwayReservationSystemByNitin/static/css/main.8b1227c0.css.map",
+    "main.7da9bc6b.js.map": "/RailwayReservationSystemByNitin/static/js/main.7da9bc6b.js.map",
     "703.77cb208b.chunk.js.map": "/RailwayReservationSystemByNitin/static/js/703.77cb208b.chunk.js.map",
     "513.a35fb1cd.chunk.js.map": "/RailwayReservationSystemByNitin/static/js/513.a35fb1cd.chunk.js.map",
     "787.2535c8cc.chunk.js.map": "/RailwayReservationSystemByNitin/static/js/787.2535c8cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff1b3940.css",
-    "static/js/main.9c25ced6.js"
+    "static/css/main.8b1227c0.css",
+    "static/js/main.7da9bc6b.js"
   ]
 }
