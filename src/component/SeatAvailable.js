@@ -66,7 +66,7 @@ function SeatAvailable() {
     <div id='welcomeDiv'>
 
       <div id='welcomeDivimg'>
-        <img src='train1.jpeg' id='fareContainerimg' alt='background' />
+        <img src='http://localhost:3000/RailwayReservationSystemByNitin/static/media/train1.14e33dc855b358a5c6ab.jpeg' id='fareContainerimg' alt='background' />
       </div>
 
       <Container id='seatformContainer'>

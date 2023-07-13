@@ -67,6 +67,7 @@
 }
 
 .adminimg{
+    background-image: url("/public/ViewSchedule.png");
     margin: 10px;
 }
 .adminrowcolP{

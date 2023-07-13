@@ -82,6 +82,7 @@
 }
 
 #apphomeimg {
+  background-image: url("/public/train logo3.png");
   position: absolute;
   width: 106px;
   display: flex;

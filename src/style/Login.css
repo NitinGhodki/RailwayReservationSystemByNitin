@@ -20,13 +20,17 @@
 }
 
 #loginimage {
-    width: 600px;
+    background-image: url("/public/img-01.webp");
+    width: 500px;
     margin: auto;
-    padding: 80px;
-    margin-top: 10%;
+    margin-top: 15%;
+    height: 520px;
+    background-size: 480px;
+    background-repeat: no-repeat;
 }
 
 #loginimage2 {
+    /* background-image: url("/public/img-01.webp"); */
     width: 600px;
     margin: auto;
     padding: 80px;

@@ -252,7 +252,7 @@ function Register() {
       <Row id='registerRow1'>
         <Col>
           <div id='loginDiv'>
-            <img src='img-01.webp' alt='loginimage' id='loginimage2' />
+            <img src='	http://localhost:3000/RailwayReservationSystemByNitin/static/media/img-01.4ed7df3a303c99050d13.webp' alt='loginimage' id='loginimage2' />
             <Link onClick={handleRegister} id='loginRegister'>Login</Link>
           </div>
         </Col>

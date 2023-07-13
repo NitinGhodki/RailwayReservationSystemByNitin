@@ -130,6 +130,7 @@
 }
 
 #homeimg {
+  background-image: url("/public/train\ logo2.png");
   position: relative;
   width: 122px;
   display: flex;

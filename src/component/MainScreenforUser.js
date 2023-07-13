@@ -69,7 +69,7 @@ class RailwayReservationSystem extends React.Component {
           <Row id='homerow'>
             <Col>
               <div>
-                <img src='train logo2.png' alt='logo' id='homeimg' />
+                <img src='http://localhost:3000/RailwayReservationSystemByNitin/static/media/train%20logo2.5ae3fd3d90e087dfcda2.png' alt='logo' id='homeimg' />
               </div>
             </Col>
             <Col>
@@ -93,7 +93,7 @@ class RailwayReservationSystem extends React.Component {
           <Row id='mainhomerow2'>
             <Col>
               <div>
-                <img src='train logo2.png' alt='logo' id='homeimg' />
+                <img src='http://localhost:3000/RailwayReservationSystemByNitin/static/media/train%20logo2.5ae3fd3d90e087dfcda2.png' alt='logo' id='homeimg' />
                 {/* <div id='homediv'>Indian Railway</div> */}
               </div>
             </Col>
@@ -102,7 +102,7 @@ class RailwayReservationSystem extends React.Component {
             </Col>
             <Col>
               <Button variant="secondary" onClick={this.handleLogout} className=" homebuttonlogout">LogOut</Button>
-              <Button id='homeImeButton'><img src='prologo.png' alt='proLogo' id='proLogo'/></Button>
+              <Button id='homeImeButton'><img src='	http://localhost:3000/RailwayReservationSystemByNitin/static/media/prologo.5d47b97e36010bb0831e.png' alt='proLogo' id='proLogo'/></Button>
             </Col>
           </Row>
           {/* {selectedComponent} */}

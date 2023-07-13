@@ -114,7 +114,7 @@ function Welcome() {
     <div id='welcomeDiv'>
 
       <div id='welcomeDivimg'>
-        <img src='train23.png' id='welcomeContainerimg' alt='background' />
+        <img src='RailwayReservationSystemByNitin/static/media/train23.06a031a524a44f538b45.png' id='welcomeContainerimg' alt='background' />
       </div>
       <Container id='welcomeContainer'>
         <h1 id='welcomeslideH1'>Indian Railway</h1>
@@ -129,21 +129,21 @@ function Welcome() {
           <Button className="trainwelcombutton" onClick={handletrainstation} style={{
             color: trainstation ? 'black' : '',
             backgroundColor: trainstation ? 'white' : '#d9d9d9',
-            filter: trainstation? "blur(0px)" : "blur(1px)"
+            filter: trainstation? "drop-shadow(2px 4px 6px black)" : "blur(1px)"
           }}>
             Train Between Station</Button>
           <Button className="trainwelcombutton" onClick={handlepnrStatus}
             style={{
               color: pnrStatus ? 'black' : '',
               backgroundColor: pnrStatus ? 'white' : '#d9d9d9',
-              filter: pnrStatus? "blur(0px)" : "blur(1px)"
+              filter: pnrStatus? "drop-shadow(2px 4px 6px black)" : "blur(1px)"
             }}
           >PNR Status</Button>
           <Button className="trainwelcombutton" onClick={handletrainSchedule}
             style={{
               color: trainSchedule ? 'black' : '',
               backgroundColor: trainSchedule ? 'white' : '#d9d9d9',
-              filter: trainSchedule? "blur(0px)" : "blur(1px)"
+              filter: trainSchedule? "drop-shadow(2px 4px 6px black)" : "blur(1px)"
             }}
           >Train Schedule</Button>
         </div>

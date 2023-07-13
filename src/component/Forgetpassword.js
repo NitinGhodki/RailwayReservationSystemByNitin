@@ -182,7 +182,7 @@ function Forgetpassword() {
                 </Col>
                 <Col>
                     <div id='ForgetpasswordDiv2'>
-                        <img src='img-01.webp' alt='loginimage' id='Forgetpasswordimage' />
+                        <img src='	http://localhost:3000/RailwayReservationSystemByNitin/static/media/img-01.4ed7df3a303c99050d13.webp' alt='loginimage' id='Forgetpasswordimage' />
                         <Link onClick={handleRegister} id='ForgetpasswordRegister2'>Login</Link>
                     </div>
                 </Col>

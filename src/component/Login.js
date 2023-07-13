@@ -111,8 +111,9 @@ function Login() {
       <Row id='loginRow'>
         <Col>
           <div id='loginDiv2'>
-            <img src='img-01.webp' alt='loginimage' id='loginimage' />
-            <Link onClick={handleRegister} id='loginRegister2'>Register</Link>
+            {/* <img src='img-01.webp' alt='loginimage' id='loginimage' /> */}
+            <div id='loginimage'></div>
+            <div><Link onClick={handleRegister} id='loginRegister2'>Register</Link></div>
           </div>
         </Col>
         <Col>

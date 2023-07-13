@@ -22,7 +22,8 @@ function App() {
 
         <Navbar id='Appnav'>
           <Container>
-            <Navbar.Brand href="/" id=''><img src='train logo3.png' alt='logo' id='apphomeimg' /></Navbar.Brand>
+            <Navbar.Brand href="/" id=''><img src='http://localhost:3000/RailwayReservationSystemByNitin/static/media/train%20logo3.5ae3fd3d90e087dfcda2.png' alt='logo' id='apphomeimg' /></Navbar.Brand>
+            
             <Nav className="me-auto inernav">
               <Nav.Link href="/SeatAvailable" className="appnavlink" id=''>Seat Availability</Nav.Link>
               <Nav.Link href="/Fare Details" className="appnavlink" id=''>Fare Enquiry</Nav.Link>
@@ -40,6 +41,7 @@ function App() {
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
           <Route path="/" element={<Welcome />} />
+          <Route path="/welcome" element={<Welcome />} />
           <Route path="/SeatAvailable" element={<SeatAvailable />} />
           <Route path="/Fare Details" element={<FareDetails />} />
           <Route path="/train bwetween station" element={<TrainBetweenStationInput />} />

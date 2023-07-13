@@ -77,7 +77,7 @@ function AdminMainScreen(props) {
         <Row id='adminrow'>
           <Col>
             <div>
-              <img src='train logo2.png' alt='logo' id='homeimg' />
+              <img src='http://localhost:3000/RailwayReservationSystemByNitin/static/media/train%20logo2.5ae3fd3d90e087dfcda2.png' alt='logo' id='homeimg' />
               {/* <div id='homediv'>Indian Railway</div> */}
             </div>
           </Col>
@@ -96,13 +96,13 @@ function AdminMainScreen(props) {
         <Row className="adminrow">
           <Col >
             <Button onClick={handleTrainClick} variant="outline-secondary" className="adminrowcol">
-              <img src="AdminTrain.png" alt="Button 1" className='adminimg' />
+              <img src="http://localhost:3000/RailwayReservationSystemByNitin/static/media/AdminTrain.cfab4750b0e79f9af064.png" alt="Button 1" className='adminimg' />
               <p className="adminrowcolP">VIEW TRAINS</p>
             </Button>
           </Col>
           <Col >
             <Button onClick={handleRouteClick} variant="outline-secondary" className="adminrowcol">
-              <img src="AdminRoute.png" alt="Button 2" className='adminimg' />
+              <img src="http://localhost:3000/RailwayReservationSystemByNitin/static/media/AdminRoute.379038ba675cc72933ff.png" alt="Button 2" className='adminimg' />
               <p className="adminrowcolP">VIEW ROUTES</p>
             </Button>
           </Col>
@@ -110,13 +110,13 @@ function AdminMainScreen(props) {
         <Row className="adminrow">
           <Col >
             <Button onClick={handleFareClick} variant="outline-secondary" className="adminrowcol">
-              <img src="AdminFare.png" alt="Button 3" className='adminimg' />
+              <img src="http://localhost:3000/RailwayReservationSystemByNitin/static/media/AdminFare.7ba9396679eb610fd60f.png" alt="Button 3" className='adminimg' />
               <p className="adminrowcolP">VIEW FARE</p>
             </Button>
           </Col>
           <Col >
             <Button onClick={handleScheduleClick} variant="outline-secondary" className="adminrowcol">
-              <img src="Schedule.png" alt="Button 4" className='adminimg' />
+              <img src="	http://localhost:3000/RailwayReservationSystemByNitin/static/media/Schedule.a8a05e1bdbb7c5065774.png" alt="Button 4" className='adminimg' />
               <p className="adminrowcolP">GENERATE SCHEDULES</p>
             </Button>
           </Col>
@@ -124,7 +124,7 @@ function AdminMainScreen(props) {
         <Row className="adminrow">
           <Col >
             <Button onClick={handleTrainScheduleClick} variant="outline-secondary" className="adminrowcol">
-              <img src="ViewSchedule.png" alt="Button 5" className='adminimg' />
+              <img src="http://localhost:3000/RailwayReservationSystemByNitin/static/media/ViewSchedule.2167c6fd47fa72ffd7a7.png" alt="Button 5" className='adminimg' />
               <p className="adminrowcolP">VIEW SCHEDULE</p>
             </Button>
           </Col>

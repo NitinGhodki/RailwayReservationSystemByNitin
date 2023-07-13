@@ -156,7 +156,7 @@ function Booking({ userId }) {
   return (
     <div id='welcomeDiv'>
       <div id='bookingDivimg'>
-        <img src='train1.jpeg' id='bookingContainerimg12' alt='background' />
+        <img src='	http://localhost:3000/RailwayReservationSystemByNitin/static/media/train1.14e33dc855b358a5c6ab.jpeg' id='bookingContainerimg12' alt='background' />
       </div>
       {showBookingForm && (
         <Container id='bookingFormContainer'>
