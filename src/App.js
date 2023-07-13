@@ -36,7 +36,7 @@ function App() {
           </Container>
         </Navbar>
 
-
+<Welcome/>
         <Routes>
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
