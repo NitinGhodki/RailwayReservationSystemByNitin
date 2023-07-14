@@ -114,7 +114,7 @@ function Welcome() {
     <div id='welcomeDiv'>
 
       <div id='welcomeDivimg'>
-        <img src='RailwayReservationSystemByNitin/static/media/train23.06a031a524a44f538b45.png' id='welcomeContainerimg' alt='background' />
+        <img src='http://localhost:3000/RailwayReservationSystemByNitin/static/media/train23.06a031a524a44f538b45.png' id='welcomeContainerimg' alt='background' />
       </div>
       <Container id='welcomeContainer'>
         <h1 id='welcomeslideH1'>Indian Railway</h1>
